@@ -26,7 +26,7 @@ Gem::Specification.new do |s|
   s.files      = Dir['{bin,lib}/**/*'] + %w(MIT-LICENSE Rakefile README.rdoc)
   s.test_files = Dir['test/**/*']
 
-  s.add_dependency('encryptor', ['>= 1.1.1'])
+  s.add_dependency('encryptor', ['1.3.0'])
   s.add_development_dependency('activerecord', ['>= 2.0.0'])
   s.add_development_dependency('datamapper')
   s.add_development_dependency('mocha')
