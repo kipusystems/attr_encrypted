@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
 
   s.required_ruby_version = '>= 1.9.3'
 
-  s.add_dependency('encryptor', ['>= 1.3.0'])
+  s.add_dependency('encryptor', ['1.3.0'])
   # support for testing with specific active record version
   activerecord_version = if ENV.key?('ACTIVERECORD')
     "~> #{ENV['ACTIVERECORD']}"
